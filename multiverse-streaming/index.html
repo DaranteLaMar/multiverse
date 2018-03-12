@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>MultiVerse Streaming</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html lang="en">
+  <head>
+    <meta name="application-name" content="MultiVerse"/>
+    <meta name="description" content="Experience your world online. Stream content instantly."/>
+    <title>MultiVerse Streaming App</title>
+  </head>
+  <body>
+    <div id="overlay">
+    <div id="images"></div>
+    </div>
+ 
+    <div class="container-fluid">
+ 
+    <p  class="myLogo">multi<b>verse</b></p>
+    <nav>
+      <div id="home">
+      <i onclick="openHome()" style="font-size:50px" class="material-icons">home</i>
+        <p style="font-size:.9em">home</p>
+      </div>
+      <div>
+      <i onclick="openStuff()" style="font-size:50px" class="material-icons">assignment_turned_in</i>
+        <p style="font-size:.9em">my stuff</p>
+        </div>
+      <div>
+      <i style="font-size:50px" class="material-icons">video_library</i>
+        <p style="font-size:.9em">videos</p>
+      </div>
+      <div>
+      <i style="font-size:50px" class="material-icons">library_books</i>
+        <p style="font-size:.9em">articles</p>
+      </div>
+      <div>
+      <i style="font-size:50px" class="material-icons">library_music</i>
+        <p style="font-size:.9em">music</p>
+      </div>
+      <div>
+      <i style="font-size:50px" class="material-icons">person</i>
+        <p style="font-size:.9em">user</p>
+        </div>     
+      <div class="container-2">
+        <span ><i style="font-size:50px" class="material-icons">search</i><br>
+        <input type="search" id="search" placeholder="Search..." /></span>
+      </div>
+    </nav> 
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="exploreHome" style="position:fixed, margin:auto" class="navbar">
+       <a onclick="showBrowse(myBrowse)" href="#lineUp">Browse</a>
+      <a onclick="showArtists(myArtists)" href="#contentPartners">Content Partners</a>
+      <a onclick="showMultiVid(myMultiVid)" href="#tv">MultiVideo</a>
+      <a onclick="showBlock(writersBlock)" href="#more">Writer's Block</a>
+      <a onclick="showSoon(mySoon)" href="#custom">Coming Soon</a>
+      <a onclick="showPlaylists(myPlaylists)" href="#tv">MV Playlists</a>
+      <a onclick="showGallery(myLineup)" href="#logo">TV Collection</a>
+      <a onclick="showMovies(myMovies)" href="#friends">Movie Collection</a>
+    </section>
+
+  <div class="vidPlay-container" id="vidPlay"></div>  
+     
+    <div id="thumbs"></div>
+      <div onclick="openVid()"  id="preview"></div>
+  </div>
+    
+
+    
+     
+    <section id="exploreStuff">
+       <a onclick="showGallery(myLineup)" href="#lineUp">My News</a>
+      <a href="#keepWatching">My Music</a>
+      <a href="#tv">My TV</a>
+      <a href="#movies">My Artists</a>
+      <a href="#kids">My Team</a>
+      <a href="#originals">My Community</a>
+      <a href="#tools">My Cause</a>  
+      <a href="#base">My Roles</a>    
+      <a href="#custom">My Hope</a>
+      <a href="#more">More</a>
+    </section>
+        
+      
+    </div>
+  </body>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
